@@ -11,7 +11,7 @@ body {
 }
 
 a {
-  color: blue;
+  color: #0056ec;
   text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ img {
 }
 
 #login_form {
-  margin: 12.5rem 5rem;
+  margin: auto 5rem;
 }
 
 .label_text {
@@ -85,14 +85,16 @@ input {
 
 #sign_in_btn {
   display: block;
-  background-color: #0000ff;
+  background-color: #0056ec;
   padding: 18px 0;
   width: 80%;
   color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 #sign_in_btn:hover {
-  background-color: #3c3cf0;
+  background-color: #073c99;
   color: #fff;
 }
 
@@ -115,7 +117,7 @@ input {
 
 #forgotpassword:hover {
   text-decoration: underline;
-  color: #0000ff;
+  color: #0056ec;
 }
 
 .main_title {
@@ -176,13 +178,17 @@ input {
 
 @media only screen and (max-width: 56.25em) {
   #login_form {
-    margin: 12.5rem 2rem;
+    margin: auto 2rem;
   }
 
   img {
     width: 90%;
     display: block;
     margin: 15rem auto;
+  }
+
+  .main_span {
+    font-size: 0.7em;
   }
 }
 
@@ -192,16 +198,22 @@ input {
   }
 
   #login_form {
-    margin: 12.5rem 5rem;
+    margin: auto 5rem;
   }
 
   .image_description {
     position: unset;
+    height: 0;
+    width: 0;
   }
 }
 
 @media only screen and (max-width: 31.25em) {
   #login_form {
-    margin: 12.5rem 2rem;
+    margin: auto 2rem;
+  }
+
+  .main_span {
+    font-size: 0.6em;
   }
 }
